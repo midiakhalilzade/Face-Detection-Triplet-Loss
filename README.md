@@ -14,10 +14,10 @@ We use triplets of images:
 - **Positive (P)**: Another image of the same person  
 - **Negative (N)**: Image of a different person
 
-The loss function ensures that the distance between A and P is smaller than between A and N by a margin \(\alpha\):
+The loss function ensures that the distance between A and P is smaller than between A and N by a margin (α):
 
 \[
-\|f(A) - f(P)\|^2 + \alpha < \|f(A) - f(N)\|^2
+\|f(A) - f(P)\|^2 + α < \|f(A) - f(N)\|^2
 \]
 
 ---
